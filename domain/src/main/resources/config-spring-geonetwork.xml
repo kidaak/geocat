@@ -25,7 +25,7 @@
     </bean>
 
     <bean id="generateDdl" class="java.lang.String" scope="singleton">
-        <constructor-arg value="true"/>
+        <constructor-arg value="false"/>
     </bean>
 
     <bean lazy-init="true" id="jpaVendorAdapter"
